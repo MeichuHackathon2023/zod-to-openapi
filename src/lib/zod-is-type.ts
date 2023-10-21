@@ -29,7 +29,7 @@ type ZodTypes = {
   ZodUnion: z.ZodUnion<any>;
   ZodDiscriminatedUnion: z.ZodDiscriminatedUnion<any, any>;
   ZodUnknown: z.ZodUnknown;
-  ZodLazy: z.ZodLazy;
+  ZodLazy: z.ZodLazy<any>;
   ZodVoid: z.ZodVoid;
   ZodDate: z.ZodDate;
 };
